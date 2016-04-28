@@ -73,8 +73,7 @@ public class Gamescreen extends Actor
         
         if(Greenfoot.isKeyDown("7"))
         setImage("Comedy.jpg"); 
-        Greenfoot.delay(70);
-        setImage("Gamescreen.jpg");
+        
         
         if(Greenfoot.isKeyDown("8"))
         setImage("Horror.jpg"); 
@@ -91,27 +90,27 @@ public class Gamescreen extends Actor
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
-        if(Greenfoot.isKeyDown("@"))
+        if(Greenfoot.isKeyDown("P"))
         setImage("Board.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
-        if(Greenfoot.isKeyDown("#"))
+        if(Greenfoot.isKeyDown("Q"))
         setImage("Minigolf.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
-        if(Greenfoot.isKeyDown("$"))
+        if(Greenfoot.isKeyDown("R"))
         setImage("arcade.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
-        if(Greenfoot.isKeyDown("%"))
+        if(Greenfoot.isKeyDown("S"))
         setImage("Video.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
-        if(Greenfoot.isKeyDown("&"))
+        if(Greenfoot.isKeyDown("T"))
         setImage("Card.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
@@ -122,7 +121,7 @@ public class Gamescreen extends Actor
         setImage("Gamescreen.jpg");
         
         if(Greenfoot.isKeyDown("G"))
-        setImage("Carnical.jpg"); 
+        setImage("Carnival.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
@@ -131,13 +130,13 @@ public class Gamescreen extends Actor
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
-        if(Greenfoot.isKeyDown("!"))
+        if(Greenfoot.isKeyDown("U"))
         setImage("Classic.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
         if(Greenfoot.isKeyDown("J"))
-        setImage("drinks.jpg"); 
+        setImage("Drinks.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
@@ -163,8 +162,8 @@ public class Gamescreen extends Actor
         
         if(Greenfoot.isKeyDown("O"))
         setImage("chinese.jpg"); 
-        Greenfoot.delay(70);
-        
+        Greenfoot.delay(150);
+        setImage("Gamescreen.jpg");
     }//End Method
         
 }//End Class

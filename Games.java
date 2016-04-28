@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author Paul Frazier, Terrence Dawson, Gewelle Ross 
  * @version 1.3
  */
-public class Games extends Actor
+public class Games extends Gamescreen
 {
     /**
      * Act - do whatever the Games wants to do. This method is called whenever

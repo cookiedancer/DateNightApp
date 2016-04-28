@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author Paul Frazier, Terrence Dawson, Gewelle Ross 
  * @version 1.3
  */
-public class Location extends Actor
+public class Location extends Gamescreen
 {
     /**
      * Act - do whatever the Location wants to do. This method is called whenever

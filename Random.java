@@ -6,7 +6,7 @@ import greenfoot.*;
  * @author Paul Frazier, Terrence Dawson, Gewelle Ross
  * @version 1.3
  */
-public class Random extends Actor
+public class Random extends Gamescreen
 {
     /**
      * Act - do whatever the Random wants to do. This method is called whenever

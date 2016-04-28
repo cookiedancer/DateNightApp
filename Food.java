@@ -6,7 +6,7 @@ import greenfoot.*;
  * @aurthor Paul Frazier, Terrence Dawson, Gewelle Ross 
  * @version 1.3
  */
-public class Food extends Actor
+public class Food extends Gamescreen
 {
     /**
      * Act - do whatever the Food wants to do. This method is called whenever
