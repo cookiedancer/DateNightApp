@@ -3,10 +3,10 @@ import greenfoot.*;
 /**
  * Write a description of class Amusement here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Paul Frazier, Terrence Dawson, Gewelle Ross
+ * @version 1.3
  */
-public class Amusement extends Activities
+public class Amusement extends Location
 {
     /**
      * Act - do whatever the Amusement wants to do. This method is called whenever

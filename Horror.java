@@ -3,8 +3,8 @@ import greenfoot.*;
 /**
  * Write a description of class Horror here.
  * 
- * @author (Gewelle Ross) 
- * @version (4/14/2016)
+ * @author Paul Frazier, Terrence Dawson, Gewelle Ross 
+ * @version 1.3
  */
 public class Horror extends Movie
 {

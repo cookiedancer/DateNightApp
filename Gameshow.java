@@ -4,7 +4,7 @@ import greenfoot.*;
   * Gameshow starts the game.
   * 
   * @author Paul Frazier, Terrence Dawson, Gewelle Ross 
-  * @version V1.3
+  * @version 1.3
   */
 public class Gameshow extends StartScreen
 {     

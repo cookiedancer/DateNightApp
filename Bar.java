@@ -3,10 +3,10 @@ import greenfoot.*;
 /**
  * Write a description of class Bar here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Paul Frazier, Terrence Dawson, Gewelle Ross 
+ * @version 1.3
  */
-public class Bar extends Location
+public class Bar extends Activities
 {
     /**
      * Act - do whatever the Bar wants to do. This method is called whenever

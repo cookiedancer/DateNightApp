@@ -3,8 +3,8 @@ import greenfoot.*;
 /**
  * Write a description of class Adventure2 here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Paul Frazier, Terrence Dawson, Gewelle Ross 
+ * @version 1.3
  */
 public class Adventure2 extends Random
 {

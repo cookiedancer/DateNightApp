@@ -3,8 +3,8 @@ import greenfoot.*;
 /**
  * Gamescreen selects actions
  * 
- * @Paul Frazier, Terrence Dawson, Gewelle Ross
- * @V1.3
+ * @aurthor Paul Frazier, Terrence Dawson, Gewelle Ross
+ * @version 1.3
  */
 public class Gamescreen extends Actor
 {//Start Class
@@ -82,7 +82,7 @@ public class Gamescreen extends Actor
         setImage("Gamescreen.jpg");
         
         if(Greenfoot.isKeyDown("9"))
-        setImage("Musical.jpg"); 
+        setImage("drama_5.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
         
@@ -90,6 +90,81 @@ public class Gamescreen extends Actor
         setImage("Romance.jpg"); 
         Greenfoot.delay(70);
         setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("@"))
+        setImage("Board.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("#"))
+        setImage("Minigolf.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("$"))
+        setImage("arcade.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("%"))
+        setImage("Video.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("&"))
+        setImage("Card.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("F"))
+        setImage("Musical.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("G"))
+        setImage("Carnical.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("H"))
+        setImage("Hiking.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("!"))
+        setImage("Classic.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("J"))
+        setImage("drinks.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("K"))
+        setImage("seafood.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("L"))
+        setImage("Puzzle.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("M"))
+        setImage("Symphony.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("N"))
+        setImage("adventure.jpg"); 
+        Greenfoot.delay(70);
+        setImage("Gamescreen.jpg");
+        
+        if(Greenfoot.isKeyDown("O"))
+        setImage("chinese.jpg"); 
+        Greenfoot.delay(70);
+        
     }//End Method
         
 }//End Class
