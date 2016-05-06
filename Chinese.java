@@ -16,5 +16,8 @@ public class Chinese extends Random
     public void act() 
     {
        myMusic.play();
+       
+       if(Greenfoot.isKeyDown("Backspace"))
+       getWorld().removeObject(this);
     }    
 }

@@ -9,16 +9,15 @@ import greenfoot.*;
 public class Comedy extends Movie
 {
     GreenfootSound Comedy = new GreenfootSound("Laughing Sound.wav");
-    public int counter = 20;
-    /**
+       /**
      * Act - do whatever the Comedy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
         Comedy.play();
-        counter = counter + 20;
-        if(counter < 0)
+        
+        if(Greenfoot.isKeyDown("Backspace"))
         getWorld().removeObject(this);
     }    
 }

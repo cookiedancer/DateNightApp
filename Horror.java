@@ -16,5 +16,8 @@ public class Horror extends Movie
     public void act() 
     {
         myMusic.play();
+        
+        if(Greenfoot.isKeyDown("Backspace"))
+        getWorld().removeObject(this);
     }    
 }

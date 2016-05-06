@@ -9,12 +9,16 @@ import greenfoot.*;
 public class Seafood extends Random
 {
      GreenfootSound myMusic = new GreenfootSound("Reggae celebrating.wav");
-    /**
+             /**
      * Act - do whatever the Chineese wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
         myMusic.play();
+        
+        if(Greenfoot.isKeyDown("Backspace"))
+        getWorld().removeObject(this);
+              
     }    
 }

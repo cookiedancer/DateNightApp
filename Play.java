@@ -14,6 +14,7 @@ public class Play extends Activities
      */
     public void act() 
     {
-        // Add your action code here.
+     if(Greenfoot.isKeyDown("Backspace"))
+     getWorld().removeObject(this);
     }    
 }

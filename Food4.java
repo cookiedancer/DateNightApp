@@ -16,5 +16,8 @@ public class Food4 extends Food
     public void act() 
     {
         myMusic.play();
+        
+    if(Greenfoot.isKeyDown("Backspace"))
+     getWorld().removeObject(this);
     }    
 }

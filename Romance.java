@@ -16,5 +16,8 @@ public class Romance extends Movie
     public void act() 
     {
         myMusic.play();
+        
+     if(Greenfoot.isKeyDown("Backspace"))
+     getWorld().removeObject(this);
     }    
 }
